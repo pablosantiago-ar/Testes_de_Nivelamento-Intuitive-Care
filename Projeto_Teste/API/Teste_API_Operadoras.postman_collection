@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "56b3305d-997a-41f4-9282-554dc9f0f2b6",
+		"name": "Teste API Operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43698362",
+		"_collection_link": "https://pablo-7151890.postman.co/workspace/Pablo's-Workspace~add9e904-8c90-4d39-8c3d-0137574ffb0a/collection/43698362-56b3305d-997a-41f4-9282-554dc9f0f2b6?action=share&source=collection_link&creator=43698362"
+	},
+	"item": [
+		{
+			"name": "Buscar Operadora",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar?q=hapvida",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "hapvida"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/buscar?q=hapvida",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"buscar"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "hapvida"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.2"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Apr 2025 19:54:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6302"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"dados\": {\n            \"Bairro\": \"CENTRO\",\n            \"CEP\": \"60140060\",\n            \"CNPJ\": \"63554067000198\",\n            \"Cargo_Representante\": \"REPRESENTANTE DA PESSOA JURÍDICA JUNTO A\",\n            \"Cidade\": \"Fortaleza\",\n            \"Complemento\": \"2º ANDAR\",\n            \"DDD\": \"85\",\n            \"Data_Registro_ANS\": \"1998-12-17\",\n            \"Endereco_eletronico\": \"ans.ndi@hapvida.com.br\",\n            \"Fax\": \"\",\n            \"Logradouro\": \"AV HERÁCLITO GRAÇA\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"HAPVIDA\",\n            \"Numero\": \"406\",\n            \"Razao_Social\": \"HAPVIDA ASSISTENCIA MEDICA S.A.\",\n            \"Regiao_de_Comercializacao\": \"5\",\n            \"Registro_ANS\": \"368253\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"32559189\",\n            \"UF\": \"CE\"\n        },\n        \"relevancia\": 3\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"BELA VISTA\",\n            \"CEP\": \"01311100\",\n            \"CNPJ\": \"62550256000120\",\n            \"Cargo_Representante\": \"REPRESENTANTE LEGAL DA OPERADORA\",\n            \"Cidade\": \"São Paulo\",\n            \"Complemento\": \"6º ANDAR, CONJUNTO 61, SALA 2\",\n            \"DDD\": \"31\",\n            \"Data_Registro_ANS\": \"1999-01-06\",\n            \"Endereco_eletronico\": \"ans@hapvida.com.br\",\n            \"Fax\": \"40032852\",\n            \"Logradouro\": \"AVENIDA PAULISTA\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"HAPVIDA MINAS GERAIS\",\n            \"Numero\": \"867\",\n            \"Razao_Social\": \"NOTRE DAME INTERMÉDICA MINAS GERAIS SAÚDE S.A.\",\n            \"Regiao_de_Comercializacao\": \"4\",\n            \"Registro_ANS\": \"348520\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"31662369\",\n            \"UF\": \"SP\"\n        },\n        \"relevancia\": 2\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"BELA VISTA\",\n            \"CEP\": \"01311914\",\n            \"CNPJ\": \"03123146000112\",\n            \"Cargo_Representante\": \"REPRESENTANTE LEGAL DA OPERADORA\",\n            \"Cidade\": \"São Paulo\",\n            \"Complemento\": \"2º ANDAR\",\n            \"DDD\": \"11\",\n            \"Data_Registro_ANS\": \"1999-03-31\",\n            \"Endereco_eletronico\": \"ans@hapvida.com.br\",\n            \"Fax\": \"32421800\",\n            \"Logradouro\": \"AVENIDA PAULISTA \",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"BIO SAÚDE\",\n            \"Numero\": \"777\",\n            \"Razao_Social\": \"BIO SAÚDE SERVIÇOS MÉDICOS LTDA\",\n            \"Regiao_de_Comercializacao\": \"4\",\n            \"Registro_ANS\": \"402966\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"34693100\",\n            \"UF\": \"SP\"\n        },\n        \"relevancia\": 1\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"NAVEGANTES\",\n            \"CEP\": \"90240611\",\n            \"CNPJ\": \"00773639000100\",\n            \"Cargo_Representante\": \"REPRESENTANTE LEGAL DA OPERADORA\",\n            \"Cidade\": \"Porto Alegre\",\n            \"Complemento\": \"\",\n            \"DDD\": \"14\",\n            \"Data_Registro_ANS\": \"1998-12-29\",\n            \"Endereco_eletronico\": \"ans@hapvida.com.br\",\n            \"Fax\": \"32879231\",\n            \"Logradouro\": \"RUA DONA MARGARIDA\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"CENTRO CLÍNICO GAÚCHO\",\n            \"Numero\": \"537\",\n            \"Razao_Social\": \"CENTRO CLÍNICO GAÚCHO LTDA\",\n            \"Regiao_de_Comercializacao\": \"4\",\n            \"Registro_ANS\": \"392804\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"32879212\",\n            \"UF\": \"RS\"\n        },\n        \"relevancia\": 1\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"CENTRO\",\n            \"CEP\": \"80020310\",\n            \"CNPJ\": \"76882612000117\",\n            \"Cargo_Representante\": \"DIRETOR EXECUTIVO\",\n            \"Cidade\": \"Curitiba\",\n            \"Complemento\": \"4º E 5º ANDARES \",\n            \"DDD\": \"41\",\n            \"Data_Registro_ANS\": \"1998-12-22\",\n            \"Endereco_eletronico\": \"ans@hapvida.com.br\",\n            \"Fax\": \"30213060\",\n            \"Logradouro\": \"RUA XV DE NOVEMBRO\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"GNDI SUL\",\n            \"Numero\": \"575\",\n            \"Razao_Social\": \"CLINIPAM CLINICA PARANAENSE DE ASSISTENCIA MEDICA LTDA\",\n            \"Regiao_de_Comercializacao\": \"4\",\n            \"Registro_ANS\": \"340782\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"30213000\",\n            \"UF\": \"PR\"\n        },\n        \"relevancia\": 1\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"JARDIM FRANCISCO FERNANDES\",\n            \"CEP\": \"15090275\",\n            \"CNPJ\": \"02668512000156\",\n            \"Cargo_Representante\": \"REPRESENTANTE LEGAL DA OPERADORA\",\n            \"Cidade\": \"São José do Rio Preto\",\n            \"Complemento\": \"\",\n            \"DDD\": \"\",\n            \"Data_Registro_ANS\": \"1998-12-16\",\n            \"Endereco_eletronico\": \"cians@hapvida.com.br\",\n            \"Fax\": \"\",\n            \"Logradouro\": \"AV. JOSÉ MUNIA\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"HB SAÚDE\",\n            \"Numero\": \"6250\",\n            \"Razao_Social\": \"H.B. SAÚDE S/A.\",\n            \"Regiao_de_Comercializacao\": \"5\",\n            \"Registro_ANS\": \"350249\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"\",\n            \"UF\": \"SP\"\n        },\n        \"relevancia\": 1\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"BELA VISTA\",\n            \"CEP\": \"01311100\",\n            \"CNPJ\": \"44649812000138\",\n            \"Cargo_Representante\": \"DIRETOR SEM DESIGNAÇÃO ESPECIFICA\",\n            \"Cidade\": \"São Paulo\",\n            \"Complemento\": \"\",\n            \"DDD\": \"11\",\n            \"Data_Registro_ANS\": \"1998-12-16\",\n            \"Endereco_eletronico\": \"ans.ndi@hapvida.com.br\",\n            \"Fax\": \"\",\n            \"Logradouro\": \"AVENIDA PAULISTA\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"\",\n            \"Numero\": \"867\",\n            \"Razao_Social\": \"NOTRE DAME INTERMÉDICA SAÚDE S.A.\",\n            \"Regiao_de_Comercializacao\": \"4\",\n            \"Registro_ANS\": \"359017\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"31555360\",\n            \"UF\": \"SP\"\n        },\n        \"relevancia\": 1\n    },\n    {\n        \"dados\": {\n            \"Bairro\": \"SANTO ANTONIO\",\n            \"CEP\": \"13465770\",\n            \"CNPJ\": \"96509690000188\",\n            \"Cargo_Representante\": \"REPRESENTANTE LEGAL\",\n            \"Cidade\": \"Americana\",\n            \"Complemento\": \"\",\n            \"DDD\": \"19\",\n            \"Data_Registro_ANS\": \"1998-12-23\",\n            \"Endereco_eletronico\": \"ans@intermedica.com.br\",\n            \"Fax\": \"34771004\",\n            \"Logradouro\": \"AV. BRASIL\",\n            \"Modalidade\": \"Medicina de Grupo\",\n            \"Nome_Fantasia\": \"HAPVIDA NOTREDAME SAO PAULO\",\n            \"Numero\": \"1530\",\n            \"Razao_Social\": \"SÃO LUCAS SAÚDE S/A\",\n            \"Regiao_de_Comercializacao\": \"5\",\n            \"Registro_ANS\": \"344362\",\n            \"Representante\": \"LUIZ CELSO DIAS LOPES\",\n            \"Telefone\": \"34771000\",\n            \"UF\": \"SP\"\n        },\n        \"relevancia\": 1\n    }\n]"
+				}
+			]
+		}
+	]
+}
