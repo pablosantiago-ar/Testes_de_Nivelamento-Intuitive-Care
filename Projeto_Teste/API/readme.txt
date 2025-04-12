@@ -36,7 +36,7 @@ npm install
 ### 🚀 Rodar o frontend
 No terminal, dentro da pasta do frontend, execute:
 ```
-npm run dev
+npm run serve
 ```
 Acesse o frontend no navegador em `http://localhost:5173` (ou a porta indicada no terminal).
 
